@@ -3,7 +3,6 @@
 " alternatively, the selection could fail if it is not within or on a function definition.
 " or the closer function could be selected.
 function! textobj#function#rust#select(object_type)
-    echom "rust select CALLED!"
     if a:object_type == "a"
         return s:select_a()
     else
