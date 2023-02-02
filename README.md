@@ -4,3 +4,4 @@ It extends [vim-textobj-function](https://github.com/kana/vim-textobj-function),
 
 Both textobjects seek backwards, i.e. if the cursor is between two functions, the previous function is selected.
 
+*This plugin works, but if you use Neovim, by now you probably want to use Treesitter-derived text objects instead.*
